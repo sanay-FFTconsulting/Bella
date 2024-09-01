@@ -300,7 +300,7 @@ while round < 7:
     print(f"Round {round}")
     valid_word = False
     while not valid_word:
-        input_word = input("enter a word: ")
+        input_word = input("enter a word: ").lower()
 
         for x in wordle_words:
             if x == input_word:
